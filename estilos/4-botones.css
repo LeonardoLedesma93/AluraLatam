@@ -1,0 +1,87 @@
+#aviso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem 0 0 1rem;
+    width: 229px;
+    height: 18px;
+    margin-left: 10rem;
+    margin-bottom: 0.4rem;
+}
+
+.aviso__texto{
+    width: 205px;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+    opacity: 0.8;
+}
+
+.aviso__signo{
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 1px;
+    margin: 0px 8px;
+}
+
+#botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 9rem;
+    
+}
+
+.botones__primario, .botones__secundario{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botones__primario button{
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    background: #001D6E;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    margin: 0px 8px;
+    box-shadow: 0 9px #495057;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+.botones__secundario button{
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+
+    background: #001D6E;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    margin: 0px 24px;
+    box-shadow: 0 9px #495057;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+button:hover{
+    
+    font-size: 22px;
+    width: 328px;
+    height: 67px;
+}
+
+button:active{
+    background: #234c75;
+}

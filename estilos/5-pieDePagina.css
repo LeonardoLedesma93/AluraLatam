@@ -1,0 +1,9 @@
+.pie__de__pagina__autor{
+    display: inline;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pie__de__pagina__autor h2{
+    padding: 1rem 0rem 0.1rem 0rem;
+}
